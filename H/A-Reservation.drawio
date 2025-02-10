@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.0.11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1304" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -224,7 +224,7 @@
           <mxGeometry y="310" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JPMbNrWk5HmAPyn3m17y-66" value="ReservationRates" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="680" width="160" height="240" as="geometry" />
+          <mxGeometry x="280" y="680" width="160" height="320" as="geometry" />
         </mxCell>
         <mxCell id="JPMbNrWk5HmAPyn3m17y-71" value="id: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JPMbNrWk5HmAPyn3m17y-66">
           <mxGeometry y="40" width="160" height="40" as="geometry" />
@@ -240,6 +240,12 @@
         </mxCell>
         <mxCell id="JPMbNrWk5HmAPyn3m17y-70" value="special-code: string || int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JPMbNrWk5HmAPyn3m17y-66">
           <mxGeometry y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPMbNrWk5HmAPyn3m17y-72" value="extra-adult: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JPMbNrWk5HmAPyn3m17y-66">
+          <mxGeometry y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPMbNrWk5HmAPyn3m17y-73" value="extra-child: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JPMbNrWk5HmAPyn3m17y-66">
+          <mxGeometry y="280" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
