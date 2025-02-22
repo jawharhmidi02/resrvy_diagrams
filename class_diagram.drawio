@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.0.16">
   <diagram name="digram_1" id="2IFXZAdZZrmlk66LD_OR">
-    <mxGraphModel dx="3695" dy="2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PoB1fa8mYEsgJ53ES_LY-0" />
         <mxCell id="PoB1fa8mYEsgJ53ES_LY-1" parent="PoB1fa8mYEsgJ53ES_LY-0" />
@@ -430,7 +430,7 @@
           <mxGeometry x="-40" y="10" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HLFJAPe5m7c0cAaOUKa2-17" value="Date" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="PoB1fa8mYEsgJ53ES_LY-1">
-          <mxGeometry x="-800" y="41" width="160" height="201" as="geometry" />
+          <mxGeometry x="-800" y="41" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HLFJAPe5m7c0cAaOUKa2-18" value="day: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HLFJAPe5m7c0cAaOUKa2-17">
           <mxGeometry y="40" width="160" height="40" as="geometry" />
@@ -440,12 +440,6 @@
         </mxCell>
         <mxCell id="HLFJAPe5m7c0cAaOUKa2-37" value="year: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HLFJAPe5m7c0cAaOUKa2-17">
           <mxGeometry y="120" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HLFJAPe5m7c0cAaOUKa2-76" value="name: string" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HLFJAPe5m7c0cAaOUKa2-17">
-          <mxGeometry y="160" width="160" height="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HLFJAPe5m7c0cAaOUKa2-77" value="&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HLFJAPe5m7c0cAaOUKa2-17">
-          <mxGeometry y="161" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HLFJAPe5m7c0cAaOUKa2-19" value="RoomPerDay" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="PoB1fa8mYEsgJ53ES_LY-1">
           <mxGeometry x="-480" y="401" width="160" height="121" as="geometry" />
