@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.0.16" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0" version="26.2.8" pages="5">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2390" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1212,6 +1212,327 @@
               <mxPoint x="280" y="2097" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x-u3zJpPY43g3cpRlYM3" name="Page-5">
+    <mxGraphModel dx="2856" dy="2612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-1" value="Hotel User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="35" height="2752" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-2" value="Hotel UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="334" y="20" width="150" height="2752" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-3" value="HotelAuthController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="648" y="20" width="163" height="2752" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-4" value="HotelAuthService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="907" y="20" width="150" height="2752" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-5" value="Users Entity" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="20" width="150" height="2752" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-6" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="835" width="984" height="598" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-7" value="[Password valid]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="OCD_fPxrB7GQkBkISfQn-6">
+          <mxGeometry x="30" width="954" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-8" value="[Password invalid]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="OCD_fPxrB7GQkBkISfQn-6">
+          <mxGeometry y="401" width="984" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-9" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="74" y="707" width="1227" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-10" value="[User exists]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="OCD_fPxrB7GQkBkISfQn-9">
+          <mxGeometry x="30" width="1197" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-11" value="[User not found]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="OCD_fPxrB7GQkBkISfQn-9">
+          <mxGeometry y="741" width="1227" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-12" value="Access Dashboard" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OCD_fPxrB7GQkBkISfQn-1" target="OCD_fPxrB7GQkBkISfQn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-13" value="Enter credentials (email, password)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="479" />
+            </Array>
+            <mxPoint x="36" y="479" as="sourcePoint" />
+            <mxPoint x="408.5" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-14" value="signin(email, password, rememberMe)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="531" />
+            </Array>
+            <mxPoint x="407.5" y="531" as="sourcePoint" />
+            <mxPoint x="729" y="531" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-15" value="signin(email, password, rememberMe)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="583" />
+            </Array>
+            <mxPoint x="728" y="583" as="sourcePoint" />
+            <mxPoint x="981.5" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-16" value="findOne(email, role: HOTEL_USER)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1145" y="635" />
+            </Array>
+            <mxPoint x="980.5" y="635" as="sourcePoint" />
+            <mxPoint x="1289.5" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-17" value="user" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1148" y="756" />
+            </Array>
+            <mxPoint x="1289.4999999999995" y="756" as="sourcePoint" />
+            <mxPoint x="981.25" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-18" value="Validate password" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1033" y="785" />
+              <mxPoint x="1033" y="815" />
+            </Array>
+            <mxPoint x="980.5" y="785" as="sourcePoint" />
+            <mxPoint x="980.5" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-19" value="Generate JWT token" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032.5" y="890" />
+              <mxPoint x="1032.5" y="920" />
+            </Array>
+            <mxPoint x="980" y="890" as="sourcePoint" />
+            <mxPoint x="980" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-20" value="user &amp; token" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="995" />
+            </Array>
+            <mxPoint x="981.5" y="995" as="sourcePoint" />
+            <mxPoint x="728" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-21" value="success response with user &amp; token" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="1047" />
+            </Array>
+            <mxPoint x="729" y="1047" as="sourcePoint" />
+            <mxPoint x="407.5" y="1047" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-22" value="Store token using next auth" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1099" />
+              <mxPoint x="460" y="1129" />
+            </Array>
+            <mxPoint x="407.5" y="1099" as="sourcePoint" />
+            <mxPoint x="407.5" y="1129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-23" value="Redirect to dashboard" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1181" />
+              <mxPoint x="460" y="1211" />
+            </Array>
+            <mxPoint x="407.5" y="1181" as="sourcePoint" />
+            <mxPoint x="407.5" y="1211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-24" value="unauthorized error" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="1309" />
+            </Array>
+            <mxPoint x="981.5" y="1309" as="sourcePoint" />
+            <mxPoint x="728" y="1309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-25" value="error message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="1361" />
+            </Array>
+            <mxPoint x="729" y="1361" as="sourcePoint" />
+            <mxPoint x="407.5" y="1361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-26" value="error message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="1413" />
+            </Array>
+            <mxPoint x="408.5" y="1413" as="sourcePoint" />
+            <mxPoint x="36" y="1413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-27" value="null" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1148" y="1521" />
+            </Array>
+            <mxPoint x="1289.5" y="1521" as="sourcePoint" />
+            <mxPoint x="980.5" y="1521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-28" value="unauthorized error" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="1573" />
+            </Array>
+            <mxPoint x="981.5" y="1573" as="sourcePoint" />
+            <mxPoint x="728" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-29" value="error message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="1625" />
+            </Array>
+            <mxPoint x="729" y="1625" as="sourcePoint" />
+            <mxPoint x="407.5" y="1625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-30" value="error message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="1677" />
+            </Array>
+            <mxPoint x="408.5" y="1677" as="sourcePoint" />
+            <mxPoint x="36" y="1677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-33" value="getHotelUserData(token)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="161" />
+            </Array>
+            <mxPoint x="407.5" y="161" as="sourcePoint" />
+            <mxPoint x="729" y="161" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-34" value="getHotelUserData(token)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="213" />
+            </Array>
+            <mxPoint x="728" y="213" as="sourcePoint" />
+            <mxPoint x="981.5" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-37" value="Decode JWT token" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1033" y="253" />
+              <mxPoint x="1033" y="283" />
+            </Array>
+            <mxPoint x="980.5" y="253" as="sourcePoint" />
+            <mxPoint x="980.5" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-38" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="1360" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-39" value="[Invalid Token]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="OCD_fPxrB7GQkBkISfQn-38">
+          <mxGeometry x="33.251833740831295" width="1326.7481662591688" height="33.131313131313135" as="geometry" />
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-41" value="findOne(payload.id, role: HOTEL_USER)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1144.5" y="1760" />
+            </Array>
+            <mxPoint x="980" y="1760" as="sourcePoint" />
+            <mxPoint x="1289" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-44" value="user" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="1845" />
+            </Array>
+            <mxPoint x="981.5" y="1845" as="sourcePoint" />
+            <mxPoint x="728" y="1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-46" value="user" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1148" y="1790" />
+            </Array>
+            <mxPoint x="1289.4999999999995" y="1790" as="sourcePoint" />
+            <mxPoint x="981.25" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-47" value="unauthorized" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OCD_fPxrB7GQkBkISfQn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="896.75" y="360" />
+            </Array>
+            <mxPoint x="1038.2499999999995" y="360" as="sourcePoint" />
+            <mxPoint x="730" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-48" value="unauthorized" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576.75" y="390" />
+            </Array>
+            <mxPoint x="729" y="390" as="sourcePoint" />
+            <mxPoint x="408.3888888888889" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-49" value="Redirect to login page" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OCD_fPxrB7GQkBkISfQn-2" target="OCD_fPxrB7GQkBkISfQn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="256.75" y="421" />
+            </Array>
+            <mxPoint x="409" y="421" as="sourcePoint" />
+            <mxPoint x="88.38888888888891" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-50" value="" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1878" />
+            </Array>
+            <mxPoint x="729" y="1877" as="sourcePoint" />
+            <mxPoint x="408.6666666666665" y="1877.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-51" value="&lt;div&gt;success response with user&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OCD_fPxrB7GQkBkISfQn-50">
+          <mxGeometry x="-0.0197" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCD_fPxrB7GQkBkISfQn-40" value="[Valid Token]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1719.996496335908" width="1360" height="7.717171717171718" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
