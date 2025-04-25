@@ -546,10 +546,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zi0szpHiIetgueHGXQhj-22" value="Cancel reservation" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="541.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="-310" y="550" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zi0szpHiIetgueHGXQhj-24" value="Create reservation" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="140" width="120" height="80" as="geometry" />
+          <mxGeometry x="-310" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zi0szpHiIetgueHGXQhj-26" value="View reports" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="-590" y="600" width="120" height="80" as="geometry" />
@@ -604,9 +604,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lgE3cTML6Y448mo2RpZy-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=16;" parent="1" source="Zi0szpHiIetgueHGXQhj-3" target="Zi0szpHiIetgueHGXQhj-24" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+          <mxGeometry x="0.4303" y="-9" width="160" relative="1" as="geometry">
             <mxPoint x="-460" y="310" as="sourcePoint" />
             <mxPoint x="-300" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lgE3cTML6Y448mo2RpZy-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=16;" parent="1" source="jcG3oZaHPxndT9UlTYAq-3" target="Zi0szpHiIetgueHGXQhj-22" edge="1">
