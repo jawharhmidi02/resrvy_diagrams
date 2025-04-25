@@ -993,7 +993,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x-u3zJpPY43g3cpRlYM3" name="hotel create rate plans">
-    <mxGraphModel dx="1895" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1256,7 +1256,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="O7Zmaz3fqyDxf4Gyo-wh" name="agency make reservation-part1">
-    <mxGraphModel dx="616" dy="1269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1551,7 +1551,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="przDDkQAS9-iqVbXKKKo" name="super admin create hotel part1">
-    <mxGraphModel dx="311" dy="170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="947" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1827,7 +1827,7 @@
             <mxPoint x="93.5" y="2072" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ptYWHGHGwXB77W_SA2zK-3" value="null" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=16;fontStyle=1;entryX=1.198;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" target="ptYWHGHGwXB77W_SA2zK-17" source="ptYWHGHGwXB77W_SA2zK-21">
+        <mxCell id="ptYWHGHGwXB77W_SA2zK-3" value="null" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=16;fontStyle=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" target="ptYWHGHGwXB77W_SA2zK-17" source="ptYWHGHGwXB77W_SA2zK-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="1720" y="1292" as="sourcePoint" />
@@ -1867,15 +1867,6 @@
             <mxPoint x="1901.5" y="1034" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ptYWHGHGwXB77W_SA2zK-14" value="findOne(adminEmail)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;fontStyle=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="ptYWHGHGwXB77W_SA2zK-17" target="5HTW9m1uA-F-ooQGjfPY-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1696" y="1254" />
-            </Array>
-            <mxPoint x="1500.6818181818185" y="1254" as="sourcePoint" />
-            <mxPoint x="1901.5" y="1254" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ptYWHGHGwXB77W_SA2zK-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1327" y="1230" width="10" height="100" as="geometry" />
         </mxCell>
@@ -1893,9 +1884,6 @@
         </mxCell>
         <mxCell id="ptYWHGHGwXB77W_SA2zK-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1727" y="1033" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ptYWHGHGwXB77W_SA2zK-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1727" y="1253" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ptYWHGHGwXB77W_SA2zK-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1727" y="1413" width="10" height="52" as="geometry" />
@@ -1920,6 +1908,18 @@
         </mxCell>
         <mxCell id="5HTW9m1uA-F-ooQGjfPY-3" value="&lt;font&gt;Database&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1640" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ptYWHGHGwXB77W_SA2zK-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1727" y="1253" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ptYWHGHGwXB77W_SA2zK-14" value="findOne(adminEmail)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;fontStyle=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="ptYWHGHGwXB77W_SA2zK-17" target="5HTW9m1uA-F-ooQGjfPY-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1696" y="1254" />
+            </Array>
+            <mxPoint x="1500.6818181818185" y="1254" as="sourcePoint" />
+            <mxPoint x="1901.5" y="1254" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
