@@ -320,7 +320,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="hotel" id="-WQL-bMFWstSTtmjtbRE">
-    <mxGraphModel dx="2745" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="VG-mklGDvVkxwajWFCEb-0" />
         <mxCell id="VG-mklGDvVkxwajWFCEb-1" parent="VG-mklGDvVkxwajWFCEb-0" />
@@ -486,16 +486,16 @@
             <mxPoint x="-530" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="drDNSD6gNicQoulvlDSp-0" value="Edit profile" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VG-mklGDvVkxwajWFCEb-1">
+        <mxCell id="drDNSD6gNicQoulvlDSp-0" value="Edit profile" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="VG-mklGDvVkxwajWFCEb-1" vertex="1">
           <mxGeometry x="-590" y="90" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="drDNSD6gNicQoulvlDSp-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=16;" edge="1" parent="VG-mklGDvVkxwajWFCEb-1" source="drDNSD6gNicQoulvlDSp-0" target="bJagFCq3qHGXAlYhC5PO-0">
+        <mxCell id="drDNSD6gNicQoulvlDSp-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=16;" parent="VG-mklGDvVkxwajWFCEb-1" source="drDNSD6gNicQoulvlDSp-0" target="bJagFCq3qHGXAlYhC5PO-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-487" y="956" as="sourcePoint" />
             <mxPoint x="-163" y="624" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="drDNSD6gNicQoulvlDSp-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=16;" edge="1" parent="VG-mklGDvVkxwajWFCEb-1" source="VG-mklGDvVkxwajWFCEb-30" target="drDNSD6gNicQoulvlDSp-0">
+        <mxCell id="drDNSD6gNicQoulvlDSp-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=16;" parent="VG-mklGDvVkxwajWFCEb-1" source="VG-mklGDvVkxwajWFCEb-30" target="drDNSD6gNicQoulvlDSp-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-761" y="640" as="sourcePoint" />
             <mxPoint x="-545" y="954" as="targetPoint" />
@@ -505,7 +505,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yvTDkAoePbyLlpxTWrK4" name="agency">
-    <mxGraphModel dx="2587" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
