@@ -809,7 +809,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zqUOB3Nucr9c3qxMzi6u" name="back">
-    <mxGraphModel dx="1737" dy="-148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="-339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -907,7 +907,7 @@
           <mxGeometry y="154.93333333333334" width="200" height="15" as="geometry" />
         </mxCell>
         <mxCell id="DcyaNHM58gs-7ZLuo8CM-218" value="ReservationItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="619" y="1490" width="180" height="117.2" as="geometry" />
+          <mxGeometry x="622" y="1480" width="180" height="117.2" as="geometry" />
         </mxCell>
         <mxCell id="DcyaNHM58gs-7ZLuo8CM-219" value="+numberOfPeople: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="DcyaNHM58gs-7ZLuo8CM-218" vertex="1">
           <mxGeometry y="44.8" width="180" height="25.2" as="geometry" />
@@ -1151,7 +1151,7 @@
         </mxCell>
         <mxCell id="3xXLgwj6Alr72614n33q-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="DcyaNHM58gs-7ZLuo8CM-218" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="1630" as="sourcePoint" />
+            <mxPoint x="630" y="1630" as="sourcePoint" />
             <mxPoint x="822" y="1256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
